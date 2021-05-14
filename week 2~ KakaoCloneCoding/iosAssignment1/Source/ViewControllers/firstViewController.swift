@@ -17,7 +17,7 @@ class firstViewController: UIViewController {
         super.viewDidLoad()
     }
      
-    
+    // '새로운 카카오 계정 만들기' 버튼 클릭 시
     @IBAction func completeMessage(_ sender: Any)
     {
         // 3개의 텍스트 필드가 모두 공백이 아니고, 비밀번호/비밀번호 확인의 값이 같다면 수행하는 조건문

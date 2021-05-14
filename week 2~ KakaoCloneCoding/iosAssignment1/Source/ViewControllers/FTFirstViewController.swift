@@ -81,7 +81,7 @@ class FTFirstViewController: UIViewController {
         
         nextVC.modalPresentationStyle = .fullScreen
         self.present(nextVC, animated: true, completion: nil)
-        self.navigationController?.popViewController(animated: true)
+        //self.navigationController?.popViewController(animated: true)
     }
     
     @IBAction func optionButton(_ sender: Any) {

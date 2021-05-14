@@ -16,7 +16,6 @@
 		39A44CF2263CF159009C58E0 /* FTFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A44CF1263CF159009C58E0 /* FTFirstViewController.swift */; };
 		39C1ABF726496A36000CA65A /* LoginDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C1ABF626496A36000CA65A /* LoginDataModel.swift */; };
 		39C1ABF926496B2B000CA65A /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C1ABF826496B2B000CA65A /* LoginService.swift */; };
-		39C274E62646C50C0063164E /* FTSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C274E52646C50C0063164E /* FTSecondViewController.swift */; };
 		39C8A6D42628260A00D09F62 /* FirstTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C8A6D32628260A00D09F62 /* FirstTab.storyboard */; };
 		39C8A6D92628263A00D09F62 /* SecondTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C8A6D82628263A00D09F62 /* SecondTab.storyboard */; };
 		39C8A6DE2628264600D09F62 /* ThirdTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C8A6DD2628264600D09F62 /* ThirdTab.storyboard */; };
@@ -33,6 +32,7 @@
 		39D565A626185AD30036FD57 /* iosAssignment1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D565A526185AD30036FD57 /* iosAssignment1Tests.swift */; };
 		39D565B126185AD30036FD57 /* iosAssignment1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D565B026185AD30036FD57 /* iosAssignment1UITests.swift */; };
 		39D565C2261860F30036FD57 /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D565C1261860F30036FD57 /* firstViewController.swift */; };
+		39ED8517264E325600E70C82 /* FTSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39ED8516264E325600E70C82 /* FTSecondViewController.swift */; };
 		39FF5BB7263E63A60044F91F /* FirstTabTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FF5BB6263E63A60044F91F /* FirstTabTableViewCell.swift */; };
 		45E80AE1AA81BA4AE8E6B245 /* Pods_iosAssignment1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06343C4DE9E3E6F135C7E87 /* Pods_iosAssignment1.framework */; };
 		62D2495247EE85FB22B114AE /* Pods_iosAssignment1_iosAssignment1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C347DEFCC4265C0D7C8C1BB2 /* Pods_iosAssignment1_iosAssignment1UITests.framework */; };
@@ -67,7 +67,6 @@
 		39A44CF1263CF159009C58E0 /* FTFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTFirstViewController.swift; sourceTree = "<group>"; };
 		39C1ABF626496A36000CA65A /* LoginDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDataModel.swift; sourceTree = "<group>"; };
 		39C1ABF826496B2B000CA65A /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
-		39C274E52646C50C0063164E /* FTSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FTSecondViewController.swift; path = "../../../../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/FTSecondViewController.swift"; sourceTree = "<group>"; };
 		39C8A6D32628260A00D09F62 /* FirstTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FirstTab.storyboard; sourceTree = "<group>"; };
 		39C8A6D82628263A00D09F62 /* SecondTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondTab.storyboard; sourceTree = "<group>"; };
 		39C8A6DD2628264600D09F62 /* ThirdTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ThirdTab.storyboard; sourceTree = "<group>"; };
@@ -90,6 +89,7 @@
 		39D565B026185AD30036FD57 /* iosAssignment1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosAssignment1UITests.swift; sourceTree = "<group>"; };
 		39D565B226185AD30036FD57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39D565C1261860F30036FD57 /* firstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
+		39ED8516264E325600E70C82 /* FTSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTSecondViewController.swift; sourceTree = "<group>"; };
 		39FF5BB6263E63A60044F91F /* FirstTabTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabTableViewCell.swift; sourceTree = "<group>"; };
 		486108C63C5B9B2CA746791C /* Pods-iosAssignment1-iosAssignment1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosAssignment1-iosAssignment1UITests.release.xcconfig"; path = "Target Support Files/Pods-iosAssignment1-iosAssignment1UITests/Pods-iosAssignment1-iosAssignment1UITests.release.xcconfig"; sourceTree = "<group>"; };
 		6609C79A67AF50C3750576C4 /* Pods-iosAssignment1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosAssignment1Tests.release.xcconfig"; path = "Target Support Files/Pods-iosAssignment1Tests/Pods-iosAssignment1Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -158,7 +158,7 @@
 				39D5659226185ACF0036FD57 /* ViewController.swift */,
 				39D565C1261860F30036FD57 /* firstViewController.swift */,
 				39A44CF1263CF159009C58E0 /* FTFirstViewController.swift */,
-				39C274E52646C50C0063164E /* FTSecondViewController.swift */,
+				39ED8516264E325600E70C82 /* FTSecondViewController.swift */,
 				398BFD94263E6FA20048D6B3 /* FfthFirstViewController.swift */,
 			);
 			path = ViewControllers;
@@ -536,6 +536,7 @@
 				39D15A34264B7AA400E0E9DB /* SignUpDataModel.swift in Sources */,
 				39D5659326185ACF0036FD57 /* ViewController.swift in Sources */,
 				39D5658F26185ACF0036FD57 /* AppDelegate.swift in Sources */,
+				39ED8517264E325600E70C82 /* FTSecondViewController.swift in Sources */,
 				39C1ABF726496A36000CA65A /* LoginDataModel.swift in Sources */,
 				398BFD93263E67830048D6B3 /* FriendListDataModel.swift in Sources */,
 				39D5659126185ACF0036FD57 /* SceneDelegate.swift in Sources */,
@@ -543,7 +544,6 @@
 				39C1ABF926496B2B000CA65A /* LoginService.swift in Sources */,
 				394A6E962648BBBD007B23C7 /* NetworkResult.swift in Sources */,
 				391CB447264026960092D4D5 /* DetailListDataModel.swift in Sources */,
-				39C274E62646C50C0063164E /* FTSecondViewController.swift in Sources */,
 				394A6E942648BB5D007B23C7 /* APIConstants.swift in Sources */,
 				39D15A36264B7C5000E0E9DB /* SignUpService.swift in Sources */,
 				391CB445264023A10092D4D5 /* FifthTabCollectionViewCell.swift in Sources */,
