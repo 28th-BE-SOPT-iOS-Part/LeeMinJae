@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="IeO-2C-two">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,40 +13,31 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iosAssignment1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="카카오톡을 시작합니다" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aFI-X0-nnC">
-                                <rect key="frame" x="118" y="94" width="178" height="25"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="25" id="gsC-Vj-cMt"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="카카오톡을 시작합니다" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aFI-X0-nnC">
+                                <rect key="frame" x="20" y="94" width="335" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="이메일 또는 전화번호" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Ylc-Zf-rVs">
-                                <rect key="frame" x="55" y="294" width="304" height="40"/>
+                                <rect key="frame" x="35" y="249" width="305" height="35"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="Jo5-zS-LzJ"/>
+                                    <constraint firstAttribute="height" constant="35" id="uXi-LZ-CjX"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="비밀번호" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="zHe-ss-1Nd">
-                                <rect key="frame" x="55" y="374" width="304" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="E0x-Pr-FBw"/>
-                                </constraints>
+                                <rect key="frame" x="35" y="309" width="305" height="35"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AmN-fc-QOc">
-                                <rect key="frame" x="55" y="464" width="304" height="40"/>
+                                <rect key="frame" x="35" y="419" width="305" height="40"/>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="mNu-nS-WoI"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="카카오계정 로그인">
                                     <color key="titleColor" systemColor="labelColor"/>
@@ -56,12 +47,17 @@
                                     <action selector="loginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="irw-sI-TTG"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbz-CC-9oU">
+                                <rect key="frame" x="67" y="143" width="241" height="36"/>
+                                <string key="text">사용하던 카카오계정이 있다면
+이메일 또는 전화번호로 로그인해 주세요.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N1n-dr-gDP">
-                                <rect key="frame" x="55" y="544" width="304" height="45"/>
+                                <rect key="frame" x="35" y="484" width="305" height="40"/>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="tIm-6t-lqu"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="새로운 카카오계정 만들기">
                                     <color key="titleColor" systemColor="labelColor"/>
@@ -70,39 +66,31 @@
                                     <action selector="newAccountButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="13k-Fm-vLk"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbz-CC-9oU">
-                                <rect key="frame" x="85" y="154" width="244" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="wG4-QB-AQU"/>
-                                </constraints>
-                                <string key="text">사용하던 카카오계정이 있다면
-이메일 또는 전화번호로 로그인해 주세요.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aFI-X0-nnC" secondAttribute="trailing" constant="118" id="33c-QL-Xkg"/>
-                            <constraint firstItem="Ylc-Zf-rVs" firstAttribute="top" secondItem="hbz-CC-9oU" secondAttribute="bottom" constant="100" id="3O2-8L-peS"/>
-                            <constraint firstItem="aFI-X0-nnC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="118" id="Lr5-AO-703"/>
-                            <constraint firstItem="AmN-fc-QOc" firstAttribute="top" secondItem="zHe-ss-1Nd" secondAttribute="bottom" constant="50" id="Tgn-56-XKn"/>
-                            <constraint firstItem="Ylc-Zf-rVs" firstAttribute="centerX" secondItem="hbz-CC-9oU" secondAttribute="centerX" id="VKy-Zh-4k6"/>
-                            <constraint firstItem="N1n-dr-gDP" firstAttribute="centerX" secondItem="AmN-fc-QOc" secondAttribute="centerX" id="YLY-xv-6ZQ"/>
-                            <constraint firstItem="zHe-ss-1Nd" firstAttribute="top" secondItem="Ylc-Zf-rVs" secondAttribute="bottom" constant="40" id="e3a-Kn-zqu"/>
-                            <constraint firstItem="zHe-ss-1Nd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="55" id="fo4-1u-sNI"/>
-                            <constraint firstItem="hbz-CC-9oU" firstAttribute="centerX" secondItem="aFI-X0-nnC" secondAttribute="centerX" id="gov-tv-PZW"/>
-                            <constraint firstItem="Ylc-Zf-rVs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="55" id="hpy-ju-Fzo"/>
-                            <constraint firstItem="hbz-CC-9oU" firstAttribute="top" secondItem="aFI-X0-nnC" secondAttribute="bottom" constant="35" id="kbe-17-1Ls"/>
-                            <constraint firstItem="AmN-fc-QOc" firstAttribute="centerX" secondItem="zHe-ss-1Nd" secondAttribute="centerX" id="nk6-OZ-ivA"/>
-                            <constraint firstItem="N1n-dr-gDP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="55" id="ot0-Ia-ce9"/>
-                            <constraint firstItem="N1n-dr-gDP" firstAttribute="top" secondItem="AmN-fc-QOc" secondAttribute="bottom" constant="40" id="qJJ-B6-qsA"/>
-                            <constraint firstItem="zHe-ss-1Nd" firstAttribute="centerX" secondItem="Ylc-Zf-rVs" secondAttribute="centerX" id="rTj-dj-n4C"/>
-                            <constraint firstItem="aFI-X0-nnC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="vZ7-sl-6W3"/>
-                            <constraint firstItem="AmN-fc-QOc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="55" id="wbN-9Y-8a7"/>
-                            <constraint firstItem="hbz-CC-9oU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="xXn-dr-zxb"/>
+                            <constraint firstItem="hbz-CC-9oU" firstAttribute="width" secondItem="aFI-X0-nnC" secondAttribute="width" multiplier="0.719403" id="45m-7i-xZu"/>
+                            <constraint firstItem="N1n-dr-gDP" firstAttribute="top" secondItem="AmN-fc-QOc" secondAttribute="bottom" constant="25" id="5TQ-EA-RmO"/>
+                            <constraint firstItem="AmN-fc-QOc" firstAttribute="centerX" secondItem="zHe-ss-1Nd" secondAttribute="centerX" id="7BM-S8-XjI"/>
+                            <constraint firstItem="aFI-X0-nnC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="8RL-AP-SRn"/>
+                            <constraint firstItem="Ylc-Zf-rVs" firstAttribute="centerX" secondItem="hbz-CC-9oU" secondAttribute="centerX" id="FtA-8p-lb1"/>
+                            <constraint firstItem="Ylc-Zf-rVs" firstAttribute="top" secondItem="hbz-CC-9oU" secondAttribute="bottom" constant="70" id="SJ8-X9-JLt"/>
+                            <constraint firstItem="N1n-dr-gDP" firstAttribute="height" secondItem="AmN-fc-QOc" secondAttribute="height" id="T3Y-Zh-uvY"/>
+                            <constraint firstItem="AmN-fc-QOc" firstAttribute="width" secondItem="zHe-ss-1Nd" secondAttribute="width" id="TPF-GQ-50k"/>
+                            <constraint firstItem="aFI-X0-nnC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="TQk-nK-MX2"/>
+                            <constraint firstItem="aFI-X0-nnC" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="TVf-8u-Wp2"/>
+                            <constraint firstItem="N1n-dr-gDP" firstAttribute="centerX" secondItem="AmN-fc-QOc" secondAttribute="centerX" id="UEb-HM-CxI"/>
+                            <constraint firstItem="zHe-ss-1Nd" firstAttribute="width" secondItem="Ylc-Zf-rVs" secondAttribute="width" id="WaJ-EJ-o6s"/>
+                            <constraint firstItem="N1n-dr-gDP" firstAttribute="width" secondItem="AmN-fc-QOc" secondAttribute="width" id="bGX-hV-gOO"/>
+                            <constraint firstItem="hbz-CC-9oU" firstAttribute="centerX" secondItem="aFI-X0-nnC" secondAttribute="centerX" id="eBa-67-hvI"/>
+                            <constraint firstItem="AmN-fc-QOc" firstAttribute="top" secondItem="zHe-ss-1Nd" secondAttribute="bottom" constant="75" id="eiU-Lv-2Ge"/>
+                            <constraint firstItem="zHe-ss-1Nd" firstAttribute="top" secondItem="Ylc-Zf-rVs" secondAttribute="bottom" constant="25" id="lxF-lV-ia4"/>
+                            <constraint firstItem="Ylc-Zf-rVs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="poN-C6-o7P"/>
+                            <constraint firstItem="zHe-ss-1Nd" firstAttribute="height" secondItem="Ylc-Zf-rVs" secondAttribute="height" id="y79-vo-zSR"/>
+                            <constraint firstItem="zHe-ss-1Nd" firstAttribute="centerX" secondItem="Ylc-Zf-rVs" secondAttribute="centerX" id="y8m-LF-1ga"/>
+                            <constraint firstItem="hbz-CC-9oU" firstAttribute="top" secondItem="aFI-X0-nnC" secondAttribute="bottom" constant="25" id="yma-ag-725"/>
+                            <constraint firstItem="AmN-fc-QOc" firstAttribute="height" secondItem="Ylc-Zf-rVs" secondAttribute="height" multiplier="1.14286" id="yxd-eT-2RB"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="R2n-DZ-1Ym"/>
@@ -120,34 +108,28 @@
             <objects>
                 <viewController storyboardIdentifier="firstViewController" id="jK5-gw-0Xw" customClass="firstViewController" customModule="iosAssignment1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GtH-J4-84u">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="카카오톡을 시작합니다" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SGG-tQ-fzN">
-                                <rect key="frame" x="118" y="94" width="178" height="25"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="25" id="HWU-TK-X7i"/>
-                                </constraints>
+                                <rect key="frame" x="20" y="94" width="335" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="비밀번호" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="1ES-yZ-jFv">
-                                <rect key="frame" x="48" y="299" width="318" height="34"/>
+                                <rect key="frame" x="35" y="283" width="305" height="35"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress" secureTextEntry="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="비밀번호 확인" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="8Ta-3p-n97">
-                                <rect key="frame" x="48" y="373" width="318" height="34"/>
+                                <rect key="frame" x="35" y="348" width="305" height="35"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxq-Z8-BH1">
-                                <rect key="frame" x="48" y="457" width="318" height="45"/>
+                                <rect key="frame" x="35" y="458" width="305" height="35"/>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="bJ1-8X-Qux"/>
-                                </constraints>
                                 <state key="normal" title="새로운 카카오계정 만들기">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
@@ -156,9 +138,9 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="이메일 또는 전화번호" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="v3G-1F-TM6">
-                                <rect key="frame" x="45" y="219" width="324" height="40"/>
+                                <rect key="frame" x="35" y="218" width="305" height="35"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="qGF-lF-QEu"/>
+                                    <constraint firstAttribute="height" constant="35" id="NlW-ib-0Q7"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
@@ -167,23 +149,24 @@
                         <viewLayoutGuide key="safeArea" id="aPA-wf-5oD"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="1ES-yZ-jFv" firstAttribute="height" secondItem="v3G-1F-TM6" secondAttribute="height" multiplier="0.85" id="KdO-eq-w7L"/>
-                            <constraint firstItem="8Ta-3p-n97" firstAttribute="centerX" secondItem="1ES-yZ-jFv" secondAttribute="centerX" id="MgI-LO-3cl"/>
-                            <constraint firstItem="1ES-yZ-jFv" firstAttribute="centerX" secondItem="v3G-1F-TM6" secondAttribute="centerX" id="NbW-wF-ta5"/>
-                            <constraint firstItem="v3G-1F-TM6" firstAttribute="top" secondItem="SGG-tQ-fzN" secondAttribute="bottom" constant="100" id="Sj0-ia-nbb"/>
-                            <constraint firstItem="8Ta-3p-n97" firstAttribute="top" secondItem="1ES-yZ-jFv" secondAttribute="bottom" constant="40" id="U3o-JS-G5q"/>
-                            <constraint firstItem="SGG-tQ-fzN" firstAttribute="top" secondItem="aPA-wf-5oD" secondAttribute="top" constant="50" id="YWI-sq-GWj"/>
-                            <constraint firstItem="wxq-Z8-BH1" firstAttribute="width" secondItem="8Ta-3p-n97" secondAttribute="width" id="b3k-vf-8b3"/>
-                            <constraint firstItem="SGG-tQ-fzN" firstAttribute="leading" secondItem="aPA-wf-5oD" secondAttribute="leading" constant="118" id="d5G-54-AXa"/>
-                            <constraint firstItem="1ES-yZ-jFv" firstAttribute="width" secondItem="v3G-1F-TM6" secondAttribute="width" multiplier="0.981481" id="luo-kh-S2c"/>
-                            <constraint firstItem="v3G-1F-TM6" firstAttribute="centerX" secondItem="SGG-tQ-fzN" secondAttribute="centerX" id="oqM-uC-Pq6"/>
-                            <constraint firstItem="8Ta-3p-n97" firstAttribute="width" secondItem="1ES-yZ-jFv" secondAttribute="width" id="r5o-T5-oXw"/>
-                            <constraint firstItem="wxq-Z8-BH1" firstAttribute="top" secondItem="8Ta-3p-n97" secondAttribute="bottom" constant="50" id="sTG-AW-r5P"/>
-                            <constraint firstItem="8Ta-3p-n97" firstAttribute="height" secondItem="1ES-yZ-jFv" secondAttribute="height" id="tLu-y1-c7c"/>
-                            <constraint firstItem="wxq-Z8-BH1" firstAttribute="centerX" secondItem="8Ta-3p-n97" secondAttribute="centerX" id="uCo-SX-GGt"/>
-                            <constraint firstItem="1ES-yZ-jFv" firstAttribute="top" secondItem="v3G-1F-TM6" secondAttribute="bottom" constant="40" id="v7y-ke-KxM"/>
-                            <constraint firstItem="v3G-1F-TM6" firstAttribute="leading" secondItem="aPA-wf-5oD" secondAttribute="leading" constant="45" id="wre-RJ-OJp"/>
-                            <constraint firstItem="aPA-wf-5oD" firstAttribute="trailing" secondItem="SGG-tQ-fzN" secondAttribute="trailing" constant="118" id="wsV-Np-Kpp"/>
+                            <constraint firstItem="wxq-Z8-BH1" firstAttribute="height" secondItem="8Ta-3p-n97" secondAttribute="height" id="0zQ-aT-D14"/>
+                            <constraint firstItem="wxq-Z8-BH1" firstAttribute="width" secondItem="8Ta-3p-n97" secondAttribute="width" id="ANl-49-L7T"/>
+                            <constraint firstItem="v3G-1F-TM6" firstAttribute="top" secondItem="SGG-tQ-fzN" secondAttribute="bottom" constant="100" id="D3j-yv-ok1"/>
+                            <constraint firstItem="wxq-Z8-BH1" firstAttribute="top" secondItem="8Ta-3p-n97" secondAttribute="bottom" constant="75" id="Gjx-H8-abh"/>
+                            <constraint firstItem="8Ta-3p-n97" firstAttribute="top" secondItem="1ES-yZ-jFv" secondAttribute="bottom" constant="30" id="IYw-1J-nw1"/>
+                            <constraint firstItem="SGG-tQ-fzN" firstAttribute="leading" secondItem="aPA-wf-5oD" secondAttribute="leading" constant="20" id="MbQ-nB-k1n"/>
+                            <constraint firstItem="8Ta-3p-n97" firstAttribute="height" secondItem="1ES-yZ-jFv" secondAttribute="height" id="V6H-ih-TEx"/>
+                            <constraint firstItem="SGG-tQ-fzN" firstAttribute="top" secondItem="aPA-wf-5oD" secondAttribute="top" constant="50" id="X5q-Ks-IwB"/>
+                            <constraint firstItem="v3G-1F-TM6" firstAttribute="leading" secondItem="aPA-wf-5oD" secondAttribute="leading" constant="35" id="XxH-eA-lI4"/>
+                            <constraint firstItem="8Ta-3p-n97" firstAttribute="width" secondItem="1ES-yZ-jFv" secondAttribute="width" id="gDc-fY-QmT"/>
+                            <constraint firstItem="1ES-yZ-jFv" firstAttribute="width" secondItem="v3G-1F-TM6" secondAttribute="width" id="i2J-IW-kDb"/>
+                            <constraint firstItem="v3G-1F-TM6" firstAttribute="centerX" secondItem="SGG-tQ-fzN" secondAttribute="centerX" id="nBp-TF-60S"/>
+                            <constraint firstItem="1ES-yZ-jFv" firstAttribute="centerX" secondItem="v3G-1F-TM6" secondAttribute="centerX" id="tAI-ZV-A7i"/>
+                            <constraint firstItem="1ES-yZ-jFv" firstAttribute="height" secondItem="v3G-1F-TM6" secondAttribute="height" id="te9-N9-tEi"/>
+                            <constraint firstItem="1ES-yZ-jFv" firstAttribute="top" secondItem="v3G-1F-TM6" secondAttribute="bottom" constant="30" id="uA3-l8-nGU"/>
+                            <constraint firstItem="SGG-tQ-fzN" firstAttribute="centerX" secondItem="aPA-wf-5oD" secondAttribute="centerX" id="vcE-Zh-nPw"/>
+                            <constraint firstItem="wxq-Z8-BH1" firstAttribute="centerX" secondItem="8Ta-3p-n97" secondAttribute="centerX" id="vmL-mR-KdH"/>
+                            <constraint firstItem="8Ta-3p-n97" firstAttribute="centerX" secondItem="1ES-yZ-jFv" secondAttribute="centerX" id="xus-3G-NpF"/>
                         </constraints>
                     </view>
                     <connections>
