@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ovR-up-J1X">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="8cQ-NP-bN9">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" id="0Rv-oE-pYh" customClass="LoginViewController" customModule="꼬끼오톡" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vUi-bn-74M">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="카카오톡을 시작합니다" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Su2-Ih-l7S">
+                                <rect key="frame" x="20" y="138" width="335" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="이메일 또는 전화번호" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="xgP-8q-Mox">
+                                <rect key="frame" x="35" y="293" width="305" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="cF9-6l-abp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="비밀번호" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="H2G-pz-t1J">
+                                <rect key="frame" x="35" y="353" width="305" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g00-y2-THQ">
+                                <rect key="frame" x="35" y="463" width="305" height="40"/>
+                                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="카카오계정 로그인">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                    <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uwl-qm-jCM">
+                                <rect key="frame" x="67" y="187" width="241" height="36"/>
+                                <string key="text">사용하던 카카오계정이 있다면
+이메일 또는 전화번호로 로그인해 주세요.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jx9-sT-K0K">
+                                <rect key="frame" x="35" y="528" width="305" height="40"/>
+                                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="새로운 카카오계정 만들기">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="PHq-WF-2DS"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="g00-y2-THQ" firstAttribute="top" secondItem="H2G-pz-t1J" secondAttribute="bottom" constant="75" id="0Ch-qk-dle"/>
+                            <constraint firstItem="Su2-Ih-l7S" firstAttribute="leading" secondItem="PHq-WF-2DS" secondAttribute="leading" constant="20" id="0Mg-yh-9EU"/>
+                            <constraint firstItem="jx9-sT-K0K" firstAttribute="top" secondItem="g00-y2-THQ" secondAttribute="bottom" constant="25" id="31t-Fh-JVh"/>
+                            <constraint firstItem="Su2-Ih-l7S" firstAttribute="centerX" secondItem="PHq-WF-2DS" secondAttribute="centerX" id="3Sc-vQ-SDF"/>
+                            <constraint firstItem="jx9-sT-K0K" firstAttribute="height" secondItem="g00-y2-THQ" secondAttribute="height" id="4gD-mi-Ytf"/>
+                            <constraint firstItem="H2G-pz-t1J" firstAttribute="top" secondItem="xgP-8q-Mox" secondAttribute="bottom" constant="25" id="6M3-Ul-Wd0"/>
+                            <constraint firstItem="Uwl-qm-jCM" firstAttribute="width" secondItem="Su2-Ih-l7S" secondAttribute="width" multiplier="0.719403" id="8zm-72-fZM"/>
+                            <constraint firstItem="xgP-8q-Mox" firstAttribute="top" secondItem="Uwl-qm-jCM" secondAttribute="bottom" constant="70" id="AHl-uq-pfO"/>
+                            <constraint firstItem="jx9-sT-K0K" firstAttribute="centerX" secondItem="g00-y2-THQ" secondAttribute="centerX" id="CiP-Wm-QSE"/>
+                            <constraint firstItem="H2G-pz-t1J" firstAttribute="width" secondItem="xgP-8q-Mox" secondAttribute="width" id="FHm-zE-9X1"/>
+                            <constraint firstItem="jx9-sT-K0K" firstAttribute="width" secondItem="g00-y2-THQ" secondAttribute="width" id="K4c-vy-3zb"/>
+                            <constraint firstItem="Su2-Ih-l7S" firstAttribute="top" secondItem="PHq-WF-2DS" secondAttribute="top" constant="50" id="Qk7-cO-9Xo"/>
+                            <constraint firstItem="Uwl-qm-jCM" firstAttribute="top" secondItem="Su2-Ih-l7S" secondAttribute="bottom" constant="25" id="TIM-4l-07Y"/>
+                            <constraint firstItem="Uwl-qm-jCM" firstAttribute="centerX" secondItem="Su2-Ih-l7S" secondAttribute="centerX" id="WNj-SV-gZE"/>
+                            <constraint firstItem="g00-y2-THQ" firstAttribute="centerX" secondItem="H2G-pz-t1J" secondAttribute="centerX" id="WcK-pC-3gd"/>
+                            <constraint firstItem="g00-y2-THQ" firstAttribute="width" secondItem="H2G-pz-t1J" secondAttribute="width" id="afC-k5-u1h"/>
+                            <constraint firstItem="xgP-8q-Mox" firstAttribute="leading" secondItem="PHq-WF-2DS" secondAttribute="leading" constant="35" id="av4-Lv-fLX"/>
+                            <constraint firstItem="g00-y2-THQ" firstAttribute="height" secondItem="xgP-8q-Mox" secondAttribute="height" multiplier="1.14286" id="bUf-oa-LKA"/>
+                            <constraint firstItem="H2G-pz-t1J" firstAttribute="height" secondItem="xgP-8q-Mox" secondAttribute="height" id="f33-bR-HZF"/>
+                            <constraint firstItem="xgP-8q-Mox" firstAttribute="centerX" secondItem="Uwl-qm-jCM" secondAttribute="centerX" id="mep-gr-B6M"/>
+                            <constraint firstItem="H2G-pz-t1J" firstAttribute="centerX" secondItem="xgP-8q-Mox" secondAttribute="centerX" id="sB8-ye-CRU"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="DRd-vQ-k6P"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MWb-tX-jKe" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4610.3999999999996" y="83.497536945812811"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="xs7-iU-eC1">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ovR-up-J1X" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pya-Yc-8KX">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="0Rv-oE-pYh" kind="relationship" relationship="rootViewController" id="gpR-nH-bH2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fSf-cW-yzR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3668" y="83.497536945812811"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
