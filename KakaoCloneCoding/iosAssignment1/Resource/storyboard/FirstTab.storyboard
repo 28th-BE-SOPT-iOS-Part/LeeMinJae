@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RW2-fN-fPI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RW2-fN-fPI">
     <device id="retina6_1" orientation="portrait" appearance="dark"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -11,7 +12,7 @@
         <!--First View Controller-->
         <scene sceneID="Itx-Dd-WRv">
             <objects>
-                <viewController storyboardIdentifier="FTFirstViewController" id="RW2-fN-fPI" customClass="FTFirstViewController" customModule="iosAssignment1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FTFirstViewController" id="RW2-fN-fPI" customClass="FTFirstViewController" customModule="꼬끼오톡" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="l8a-XA-1ys">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -99,8 +100,8 @@
                                     </constraints>
                                 </view>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FirstTabTableViewCell" rowHeight="50" id="PfO-9D-ovl" customClass="FirstTabTableViewCell" customModule="iosAssignment1" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="97.5" width="414" height="50"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FirstTabTableViewCell" rowHeight="50" id="PfO-9D-ovl" customClass="FirstTabTableViewCell" customModule="꼬끼오톡" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="117.5" width="414" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="PfO-9D-ovl" id="oup-nJ-jlq">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
@@ -202,7 +203,7 @@
         <!--Second View Controller-->
         <scene sceneID="JOx-qo-yka">
             <objects>
-                <viewController storyboardIdentifier="FTSecondViewController" id="70p-bK-I06" customClass="FTSecondViewController" customModule="iosAssignment1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FTSecondViewController" id="70p-bK-I06" customClass="FTSecondViewController" customModule="꼬끼오톡" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2F6-zL-fC1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -322,7 +323,7 @@
         <image name="profileTalkImg" width="20.5" height="19.5"/>
         <image name="profileUserImg" width="97" height="96"/>
         <image name="settingIcon" width="19" height="19"/>
-        <image name="xmark" catalog="system" width="128" height="113"/>
+        <image name="xmark" catalog="system" width="32" height="32"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
