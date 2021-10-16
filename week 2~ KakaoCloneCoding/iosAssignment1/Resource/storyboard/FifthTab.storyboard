@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gnX-pb-wTP">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -140,7 +140,6 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20" id="oD1-zj-gl9"/>
                                                     </constraints>
-                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <state key="normal" image="message" catalog="system"/>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Epd-Mn-Yl4">
@@ -192,7 +191,7 @@
                             <constraint firstItem="QMv-Y6-RU8" firstAttribute="top" secondItem="Qy4-uD-awk" secondAttribute="top" id="z8f-62-kO9"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="ellipsis.rectangle" catalog="system" id="hWU-wN-tkf"/>
+                    <tabBarItem key="tabBarItem" title="" image="detailTabIcon" selectedImage="detailTabIconSelected" id="hWU-wN-tkf"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="detailCollectionView" destination="8Rn-cf-r0s" id="oNQ-Lx-WZ5"/>
@@ -204,7 +203,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ellipsis.rectangle" catalog="system" width="128" height="81"/>
+        <image name="detailTabIcon" width="21" height="5"/>
+        <image name="detailTabIconSelected" width="21" height="5"/>
         <image name="friendtabProfileImg" width="59" height="58"/>
         <image name="message" catalog="system" width="128" height="113"/>
         <image name="settingIcon" width="19" height="19"/>

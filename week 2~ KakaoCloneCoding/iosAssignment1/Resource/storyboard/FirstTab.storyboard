@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RW2-fN-fPI">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -42,7 +42,6 @@
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gZM-MW-HHX">
                                 <rect key="frame" x="0.0" y="101" width="414" height="712"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <view key="tableHeaderView" contentMode="scaleToFill" id="imB-F4-UfP">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="73"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -186,6 +185,7 @@
                             <constraint firstItem="qk3-zp-Fxe" firstAttribute="trailing" secondItem="mcq-m8-hcS" secondAttribute="trailing" constant="15" id="s1l-HP-DXW"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="" image="friendTabIcon" selectedImage="friendTabIconSelected" id="jGA-Vb-uW4"/>
                     <navigationItem key="navigationItem" id="NYY-7r-26E"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
@@ -314,6 +314,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="friendTabIcon" width="18" height="20"/>
+        <image name="friendTabIconSelected" width="18" height="20"/>
         <image name="friendtabProfileImg" width="59" height="58"/>
         <image name="profileEditImg" width="19.5" height="21.5"/>
         <image name="profileStoryImg" width="20.5" height="23.5"/>
